@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="brand">TRNDY<span style="color: #ff4081;">HUB</span></h1>
+            <ul class="nav-links">
+                <li><a href="fashionstore.html">Home</a></li>
+                <li><a href="exlpore.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+            <style>
+        body { font-family: Arial, sans-serif; ; margin: 0; padding: 0; background-image: url(background.png); }
+        .containerr { max-width: 600px; margin: 50px auto; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 8px; background-image: url(ba); }
+        h1 { text-align: center; } 
+        label { display: block; margin: 10px 0 5px; } 
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius:}
+    }   button { display: block; width: 100%; padding: 10px; background-color: #ff4081; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #ff4081;}
+        
+        </style>
+            </div>
+    </header>
+    <div class="containerr"> 
+    <h1 style="color: white;">Contact Us</h1> 
+    <form action="contact_form_handler.php" method="post">
+    <label for="name" style="color: white;">Name:</label> <input type="text" id="name" name="name" required>
+    <label for="email" style="color: white;">Email:</label> <input type="email" id="email" name="email" required> 
+    <label for="message" style="color: white;">Message:</label> 
+    <textarea id="message" name="message" rows="5" required></textarea>
+     <button type="submit">Send Message</button>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FashionHub. All rights reserved.</p>
+        </div>
+    </footer>
+
